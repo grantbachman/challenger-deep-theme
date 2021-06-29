@@ -1,0 +1,21 @@
+{
+    "name": "challenger-deep-theme",
+    "displayName": "challenger-deep-theme",
+    "description": "Challenger Deep theme extension made with love by a fan. See https://github.com/challenger-deep-theme",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.57.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Challenger Deep Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/challenger-deep-color-theme.json"
+            }
+        ]
+    }
+}

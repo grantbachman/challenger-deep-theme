@@ -1,11 +1,11 @@
 {
-	"name": "monokai-challenger-deep",
+	"name": "challenger-deep",
 	"type": "dark",
 	"colors": {
 		"activityBarBadge.background": "#1b182d",
 		"activityBar.background": "#100e23",
 		"editor.background": "#1b182c",
-		"editor.foreground": "#cbe3e7",
+		"editor.foreground": "#ffe9aa",
 		"editor.lineHighlightBackground": "#202325",
 		"editor.selectionBackground": "#49483e",
 		"editorCursor.foreground": "#f8f8f0",
@@ -39,13 +39,26 @@
 				"constant.other",
 			],
 			"settings": {
-				"foreground": "#AE81FF"
+				"foreground": "#91ddff"
 			}
 		},
 		{
-			"scope": "variable",
+			"name": "macro",
+			"scope": [
+				"punctuation.definition",
+				"punctuation.brackets"
+			],
 			"settings": {
-				"fontStyle": ""
+				"foreground": "#ff8080"
+			}
+		},
+		{
+			"name": "Curly Brackets",
+			"scope": [
+				"punctuation.brackets.curly"
+			],
+			"settings": {
+				"foreground": "#c991e1"
 			}
 		},
 		{
@@ -67,7 +80,7 @@
 		{
 			"scope": "storage.type",
 			"settings": {
-				"foreground": "#66D9EF",
+				"foreground": "#aaffe4",
 				"fontStyle": "italic"
 			}
 		},
@@ -118,21 +131,21 @@
 		{
 			"scope": "support.function",
 			"settings": {
-				"foreground": "#66D9EF",
+				"foreground": "#aaffe4",
 				"fontStyle": ""
 			}
 		},
 		{
 			"scope": "support.constant",
 			"settings": {
-				"foreground": "#66D9EF",
+				"foreground": "#aaffe4",
 				"fontStyle": ""
 			}
 		},
 		{
 			"scope": "support.type, support.class",
 			"settings": {
-				"foreground": "#66D9EF",
+				"foreground": "#aaffe4",
 				"fontStyle": "italic"
 			}
 		},
@@ -154,7 +167,7 @@
 			"scope": "invalid.deprecated",
 			"settings": {
 				"foreground": "#F8F8F0",
-				"background": "#AE81FF"
+				"background": "#ff8080"
 			}
 		},
 		{
@@ -220,7 +233,7 @@
 		{
 			"scope": "constant.numeric.line-number.find-in-files - match",
 			"settings": {
-				"foreground": "#AE81FFA0"
+				"foreground": "#ff8080A0"
 			}
 		},
 		{

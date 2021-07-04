@@ -1,8 +1,14 @@
 {
     "name": "challenger-deep-theme",
-    "displayName": "challenger-deep-theme",
+    "author": "Grant David Bachman <grantbachman@gmail.com>",
+    "publisher": "grantbachman",
+    "displayName": "Challenger Deep Theme",
     "description": "Challenger Deep theme extension made with love by a fan. See https://github.com/challenger-deep-theme",
     "version": "0.0.1",
+    "repository": {
+	"type": "git",
+	"url": "https://github.com/grantbachman/challenger-deep-theme.git"
+    },
     "engines": {
         "vscode": "^1.57.0"
     },
@@ -12,7 +18,7 @@
     "contributes": {
         "themes": [
             {
-                "label": "Challenger Deep Theme",
+                "label": "Challenger Deep",
                 "uiTheme": "vs-dark",
                 "path": "./themes/challenger-deep-color-theme.json"
             }

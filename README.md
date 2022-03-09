@@ -1,3 +1,3 @@
-# README
+![Challenger Deep](https://challenger-deep-theme.github.io/images/logo.png)
 
-Implementation of Challenger Deep theme. See https://challenger-deep-theme.github.io
+### [Challenger Deep Theme](https://challenger-deep-theme.github.io/) for [VSCode](https://github.com/grantbachman/challenger-deep-theme).
